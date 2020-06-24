@@ -1,0 +1,9 @@
+E:\C#\Program\WinForm\WinForm\bin\Debug\WinForm.exe.config
+E:\C#\Program\WinForm\WinForm\bin\Debug\WinForm.exe
+E:\C#\Program\WinForm\WinForm\bin\Debug\WinForm.pdb
+E:\C#\Program\WinForm\WinForm\obj\Debug\WinForm.MainForm.resources
+E:\C#\Program\WinForm\WinForm\obj\Debug\WinForm.Properties.Resources.resources
+E:\C#\Program\WinForm\WinForm\obj\Debug\WinFormControl.csproj.GenerateResource.cache
+E:\C#\Program\WinForm\WinForm\obj\Debug\WinFormControl.csproj.CoreCompileInputs.cache
+E:\C#\Program\WinForm\WinForm\obj\Debug\WinForm.exe
+E:\C#\Program\WinForm\WinForm\obj\Debug\WinForm.pdb

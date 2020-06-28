@@ -25,27 +25,9 @@ namespace WinForm
         }
         private void InitCheckTestToolStrip()
         {
-            this.toolStripButton2.CheckOnClick = true;
-            this.toolStripButton2.CheckedChanged += ToolStrip_CheckedChanged;
-            this.toolStripButton3.CheckOnClick = true;
-            this.toolStripButton3.CheckedChanged += ToolStrip_CheckedChanged;
-            this.toolStripButton4.CheckOnClick = true;
-            this.toolStripButton4.CheckedChanged += ToolStrip_CheckedChanged;
-        }
-
-        private void ToolStrip_CheckedChanged(object sender, EventArgs e)
-        {
-            var btn = (sender as ToolStripButton);
-            if(btn.Checked)
-            {
-                btn.ForeColor = Color.Red;
-                btn.BackColor = Color.Yellow;
-            }
-            else
-            {
-                btn.ForeColor = Color.Black;
-                btn.BackColor = Color.White;
-            }
+            this.ToolStripButtonEx1.CheckOnClick = true;
+            this.ToolStripButtonEx2.CheckOnClick = true;
+            this.ToolStripButtonEx3.CheckOnClick = true;
         }
 
         private void button1_Click(object sender, EventArgs e)

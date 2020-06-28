@@ -10,12 +10,14 @@ namespace WinForm
 {
     class ToolStripButtonEx:ToolStripButton
     {
+        private Brush highlight = new SolidBrush(Color.GreenYellow);
+        private Brush normal = new SolidBrush(SystemColors.Control);
         protected override void OnPaint(PaintEventArgs e)
         {
             if (this.Checked)
-                e.Graphics.FillRectangle(new SolidBrush(Color.LightGreen), e.ClipRectangle);
+                e.Graphics.FillRectangle(highlight, e.ClipRectangle);
             else
-                e.Graphics.FillRectangle(new SolidBrush(SystemColors.Control), e.ClipRectangle);
+                e.Graphics.FillRectangle(normal, e.ClipRectangle);
             base.OnPaint(e);
             
         }
